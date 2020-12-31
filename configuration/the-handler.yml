@@ -1,0 +1,11 @@
+  handler: src/example/example.handler
+  description: "Serverles aws example"
+  events:
+    - http:
+        path: hello/{id}
+        method: get
+        cors: true
+        request:
+            parameters:
+                paths:
+                    id: true

@@ -1,0 +1,21 @@
+{
+  "name": "serverless-scheduler",
+  "version": "1.0.0",
+  "description": "example of serverless",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Alberto Pascual",
+  "license": "ISC",
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "serverless-offline": "^6.7.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.61",
+    "aws-lambda": "^1.0.6"
+  }
+}
